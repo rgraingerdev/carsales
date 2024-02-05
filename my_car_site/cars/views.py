@@ -1,11 +1,13 @@
 from django.shortcuts import render
 
-# Create your views here.
 def list(request):
-    return(render, 'cars/list.html')
+    # Your view logic here
+    return render(request, 'list.html')
 
 def add(request):
-    return(render, 'cars/add.html')
+    # Your view logic here
+    return render(request, 'add.html')
 
 def delete(request):
-    return(render, 'cars/delete.html')
+    # Your view logic here
+    return render(request, 'delete.html')
